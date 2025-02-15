@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WP2 - 1. hét</title>
+        <meta charset="utf-8">
+        <script src="scripts.js"></script>
+    </head>
+
+    <body>
+        <form>
+            <input type="number" id="meret">
+            <button type="button" onclick="generalas()">Generálás</button>
+        </form>
+
+        <br><br>
+
+        <div id="elso" style="display: block;">
+            <label>Hány checkbox-ot szeretnél az olalon? <input type="number" id="checkboxDb"></label><br>
+            <label>Hány rádiógomb-ot szeretnél az olalon? <input type="number" id="radioDb"></label><br><br>
+            <button type="button" onclick="darabKiolvas()">Mehet</button>
+        </div>
+        
+        <div id="masodik" style="display: none;">
+            <!-- Itt jelenik meg a checkboxok és rádiógombok generálása -->
+        </div>
+        
+        <div id="harmadik" style="display: none;">
+            <!-- Itt jelenik meg a generált HTML a felhasználó beállításai alapján -->
+        </div>
+    </body>
+</html>
